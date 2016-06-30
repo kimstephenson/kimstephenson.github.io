@@ -1,3 +1,67 @@
-body {
-  background: blue;
+.main-heading {
+  background-color: #007889;
+  margin: 0;
+  font-size: 3em;
+  font-family: Helvetica;
+  color: white;
+  display: block;
+  text-align: center;
+  border-bottom: solid 10px #F4901E;
 }
+
+.paragraph {
+  width: 50%;
+  font-family: Arial;
+  margin-left: 2%;
+}
+
+#playoff-photo {
+  width: 50%;
+  margin-left: 2%;
+}
+
+#caption {
+font-family: Arial;
+font-size: .6em;
+margin-top: 1px;
+margin-bottom: 20px;
+margin-left: 2%;
+}
+
+#players {
+background-color: #007889;
+width: 48%;
+border-radius: 10px;
+border: 5px solid #F4901E;
+font-family: Arial;
+padding: 10px;
+margin-left: 2%;
+}
+
+#players > h1 {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1.7em;
+  color: white;
+}
+
+nav {
+  font-family: Arial;
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  width: 20%;
+  background-color: #007889;
+  border: solid 5px #F4901E;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+nav > h2 {
+  text-align: center;
+  font-family: Helvetica;
+  color: white;
+}
+
+
