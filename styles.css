@@ -68,6 +68,14 @@ ul > li {
   list-style-type: square;
 }
 
+footer {
+  font-family: Arial;
+  font-size: .8em;
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
 a:link {
   color: black;
 }
