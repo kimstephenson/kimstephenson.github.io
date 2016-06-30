@@ -1,12 +1,19 @@
+html, body {margin: 0; padding: 0;}
+
+body {
+  background-image: url("1768894-ice-hockey-background.jpg") ;
+}
+
 .main-heading {
   background-color: #007889;
-  margin: 0;
   font-size: 3em;
   font-family: Helvetica;
   color: white;
+  margin: 0;
   display: block;
   text-align: center;
   border-bottom: solid 10px #F4901E;
+  padding-top: 10px;
 }
 
 .paragraph {
@@ -18,24 +25,27 @@
 #playoff-photo {
   width: 50%;
   margin-left: 2%;
+  box-shadow: 10px 10px 10px gray;
 }
 
 #caption {
 font-family: Arial;
 font-size: .6em;
-margin-top: 1px;
+margin-top: 10px;
 margin-bottom: 20px;
 margin-left: 2%;
 }
 
 #players {
 background-color: #007889;
-width: 48%;
+width: 35%;
 border-radius: 10px;
 border: 5px solid #F4901E;
 font-family: Arial;
 padding: 10px;
-margin-left: 2%;
+position: absolute;
+right: 3%;
+top: 40%;
 }
 
 #players > h1 {
@@ -49,7 +59,7 @@ nav {
   font-family: Arial;
   display: block;
   position: absolute;
-  right: 10%;
+  right: 18.5%;
   top: 15%;
   width: 20%;
   background-color: #007889;
@@ -74,6 +84,7 @@ footer {
   display: block;
   width: 200px;
   margin: auto;
+  margin-bottom: 10px;
 }
 
 a:link {
@@ -84,5 +95,26 @@ a:visited {
   color: #F4901E;
 }
 
+@media screen and (max-width: 768px) {
+  #players {
+    width: 85%;
+    position: relative;
+    margin-left: 5%;
+  }
+
+  nav {
+    width: 95%;
+    position:relative;
+    margin-left: 20%;
+  }
+
+  .paragraph {
+    width: 100%;
+  }
+
+  #playoff-photo {
+    width: 75%;
+  }
+}
 
 
