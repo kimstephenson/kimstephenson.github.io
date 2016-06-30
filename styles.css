@@ -64,4 +64,17 @@ nav > h2 {
   color: white;
 }
 
+ul > li {
+  list-style-type: square;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: #F4901E;
+}
+
+
 
