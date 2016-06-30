@@ -97,23 +97,27 @@ a:visited {
 
 @media screen and (max-width: 769px) {
   #players {
-    width: 90%;
+    width: 85%;
     position: relative;
     margin-left: 5%;
   }
 
   nav {
-    width: 95%;
+    width: 90%;
     position:relative;
     margin-left: 20%;
   }
 
   .paragraph {
-    width: 95%;
+    width: 80%;
   }
 
   #playoff-photo {
     width: 75%;
+  }
+
+  footer {
+    margin-top: 5px;
   }
 }
 
