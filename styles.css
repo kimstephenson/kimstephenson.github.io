@@ -95,6 +95,52 @@ a:visited {
   color: #F4901E;
 }
 
+#playoff-table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 60%;
+  text-align: center;
+  margin-top: 30px;
+  font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+}
+
+th {
+  padding: 10px;
+  background-color: gray;
+  color: white;
+  font-size: 1.5em;
+}
+
+td {
+  padding: 5px;
+  background-color: white;
+}
+
+form {
+  font-family: Arial;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#password {
+  margin-top: 10px;
+}
+
+#login {
+  background-color: #007889;
+  color: white;
+  margin-top: 10px;
+  width: 150px;
+  font-family: Arial;
+  font-size: 1em;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+}
+
 @media screen and (max-width: 769px) {
   .main-heading {
     font-size: 2em;
@@ -126,7 +172,17 @@ a:visited {
   footer {
     margin-top: 5px;
   }
+
+  th {
+    font-size: .9em;
+  }
+
+  td {
+    font-size: .8em;
+  }
 }
+
+
 
 
 
