@@ -119,6 +119,28 @@ td {
   background-color: white;
 }
 
+form {
+  font-family: Arial;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#password {
+  margin-top: 10px;
+}
+
+#login {
+  background-color: #007889;
+  color: white;
+  margin-top: 10px;
+  width: 150px;
+  font-family: Arial;
+  font-size: 1em;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+}
+
 @media screen and (max-width: 769px) {
   .main-heading {
     font-size: 2em;
@@ -149,6 +171,14 @@ td {
 
   footer {
     margin-top: 5px;
+  }
+
+  th {
+    font-size: .9em;
+  }
+
+  td {
+    font-size: .8em;
   }
 }
 
